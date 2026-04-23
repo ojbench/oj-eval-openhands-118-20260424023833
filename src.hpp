@@ -1,6 +1,8 @@
-#include <iostream>
-#include <stdexcept>
+#include <iostream>     // 输入输出
+#include <stdexcept>    // 异常处理
+// 你不可以使用任何其他的头文件!
 
+// 下发异常类。你不需要修改这个类。
 struct divided_by_zero final : std::exception {
 public:
     divided_by_zero()   = default;
